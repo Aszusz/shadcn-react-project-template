@@ -1,8 +1,11 @@
+import { Button } from './components/ui/button';
+
 function App() {
   return (
-    <>
-      <h1>Hello, world!</h1>
-    </>
+    <div>
+      <h1 className="text-4xl">Hello World</h1>
+      <Button className="hover:bg-blue-300">Click me</Button>
+    </div>
   );
 }
 
