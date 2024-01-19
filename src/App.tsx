@@ -1,12 +1,7 @@
-import { Button } from './components/ui/button'
+import { Todos } from './components/component/todos'
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-4xl">Hello World</h1>
-      <Button className="">Click me!</Button>
-    </div>
-  )
+  return <Todos />
 }
 
 export default App
