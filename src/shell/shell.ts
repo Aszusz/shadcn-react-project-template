@@ -2,7 +2,7 @@ import { State, initialState } from '@/core/state'
 import { StoreApi, createStore } from 'zustand/vanilla'
 import { useStore } from 'zustand'
 import * as Core from '@/core/core'
-import { Todo, TodoFilter } from '@/core/todo'
+import { TodoFilter } from '@/core/todo'
 
 export class Shell {
   private store: StoreApi<State>
